@@ -1,0 +1,72 @@
+<h1>Flight Search!</h1>
+
+<form name="form" novalidate>
+
+    <div class="form-group">
+        <label>From:</label>
+        <input
+                name="from"
+                class="form-control"
+                ng-model="$ctrl.from"
+                required
+                minlength="3"
+                maxlength="30"
+                city>
+    </div>
+
+    <div ng-if="form.from.$invalid">
+        From is invalid!
+    </div>
+
+    <div ng-if="form.from.$error.city">
+        Unknown city. Try Hamburg or Graz.
+    </div>
+
+    <!--
+    <div ng-if="form.from.$error.cityAsync">
+        Currently no flights for this city.
+    </div>
+    -->
+
+    <div ng-if="form.from.$pending.cityAsync">
+        <marquee>Validating ... Plase wait ...</marquee>
+    </div>
+
+    <div ng-if="form.from.$error.required">
+        This field is required
+    </div>
+
+    <div ng-if="form.from.$error.minlength">
+        Please enter more characters.
+    </div>
+
+    <div class="form-group">
+        <label>To:</label>
+        <input class="form-control" ng-model="$ctrl.to" name="to">
+    </div>
+    <div class="form-group">
+        <button
+                ng-disabled="form.$invalid"
+                class="btn btn-primary"
+                ng-click="$ctrl.search()">Search!</button>
+    </div>
+</form>
+
+<div class="row">
+    <div ng-repeat="f in $ctrl.getFlights()" class="col-sm-4" style="padding:20px;">
+        <flight-card
+                item="f"
+                selected-item="$ctrl.selectedFlight"
+                selected-item-change="$ctrl.selectedFlight = $locals">
+
+            <a  class="btn btn-default" ui-sref="flightBooking.flightEdit({id: f.id})">Edit</a>
+        </flight-card>
+
+    </div>
+</div>
+<p>&nbsp;</p>
+<div class="row">
+<pre>Basket
+----------------------
+{{$ctrl.selectedFlight | json }}</pre>
+</div>

@@ -7,37 +7,7 @@
         <input
                 name="from"
                 class="form-control"
-                ng-model="$ctrl.from"
-                required
-                minlength="3"
-                maxlength="30"
-                city>
-    </div>
-
-    <div ng-if="form.from.$invalid">
-        From is invalid!
-    </div>
-
-    <div ng-if="form.from.$error.city">
-        Unknown city. Try Hamburg or Graz.
-    </div>
-
-    <!--
-    <div ng-if="form.from.$error.cityAsync">
-        Currently no flights for this city.
-    </div>
-    -->
-
-    <div ng-if="form.from.$pending.cityAsync">
-        <marquee>Validating ... Plase wait ...</marquee>
-    </div>
-
-    <div ng-if="form.from.$error.required">
-        This field is required
-    </div>
-
-    <div ng-if="form.from.$error.minlength">
-        Please enter more characters.
+                ng-model="$ctrl.from">
     </div>
 
     <div class="form-group">

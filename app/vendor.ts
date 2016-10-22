@@ -19,3 +19,6 @@ import '@angular/upgrade';
 // import 'rxjs/Rx';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/toPromise';
+
+window['$'] = window['jQuery'] = require('jquery');
+require('bootstrap');

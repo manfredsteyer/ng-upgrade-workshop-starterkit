@@ -5,7 +5,7 @@ import {Flight} from "../shared/flight";
 class FlightEditController {
     info = 'Flight Edit';
     id: string;
-    flight: Flight;
+    flight: Flight = <any>{};
     message: string;
 
     constructor($stateParams: any, private flightService: FlightService) {

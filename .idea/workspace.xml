@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bc0024b-c2b9-44be-b95b-e6130f10bf69" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/static-flight.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/static-flights.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/static-passengers.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/flight-edit/flight-edit.component.ts" afterPath="$PROJECT_DIR$/app/flight-edit/flight-edit.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/flight-search/flight-search.html" afterPath="$PROJECT_DIR$/app/flight-search/flight-search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vendor.ts" afterPath="$PROJECT_DIR$/app/vendor.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="starterkit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
@@ -121,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="363">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -205,12 +198,12 @@
         <option value="$PROJECT_DIR$/app/flight-search/flight-search.js" />
         <option value="$PROJECT_DIR$/app/app.module.ts" />
         <option value="$PROJECT_DIR$/app/app.component.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/flight-search/flight-search.html" />
         <option value="$PROJECT_DIR$/app/flight-edit/flight-edit.component.ts" />
         <option value="$PROJECT_DIR$/app/vendor.ts" />
         <option value="$PROJECT_DIR$/data/readme.md" />
         <option value="$PROJECT_DIR$/styles.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -391,7 +384,7 @@
       <workItem from="1476446943385" duration="18860000" />
       <workItem from="1476555037021" duration="2626000" />
       <workItem from="1476900295498" duration="41000" />
-      <workItem from="1477155468258" duration="675000" />
+      <workItem from="1477155468258" duration="922000" />
     </task>
     <servers />
   </component>
@@ -428,7 +421,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57748000" />
+    <option name="totallyTimeSpent" value="57995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="2906" height="1566" extended-state="6" />
@@ -703,14 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/flight-search/flight-search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -762,6 +747,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>

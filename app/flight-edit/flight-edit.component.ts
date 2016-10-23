@@ -40,5 +40,5 @@ class FlightEditController {
 
 export let FlightEditComponent: angular.IComponentOptions = {
     controller: FlightEditController,
-    template: require('./flight-edit.component.html')
+    templateUrl: './flight-edit.component.html'
 }
